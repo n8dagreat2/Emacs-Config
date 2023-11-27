@@ -12,6 +12,8 @@
 ;; Set up the visible bell
 (setq visible-bell t)
 
+(setq make-backup-files nil) ; stop creating ~ files
+
 ;; Make ESC quit prompts
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
 
